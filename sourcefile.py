@@ -3,9 +3,9 @@ import smtplib
 from email.mime.text import MIMEText
 
 # ---------------- EMAIL ----------------
-EMAIL_SENDER = "mateocamanoocana@alumnos.tajamar.es"
+EMAIL_SENDER = "mateo.camano.ocana@gmail.com"
 EMAIL_PASSWORD = "36147873"
-EMAIL_RECEIVER = "mateocamanoocana@alumnos.tajamar.es"
+EMAIL_RECEIVER = "mateo.camano.ocana@gmail.com"
 
 def enviar_email(nombre, pedido, total):
     try:
